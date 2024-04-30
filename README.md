@@ -23,7 +23,7 @@ Or install it yourself as:
 
 ## Quick Examples
 
-```
+```rb
 expect {
   post :create, user: { username: "bob", password: "BlueSteel45" }
 }.to create_a(User)
